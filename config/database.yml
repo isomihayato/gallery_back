@@ -52,6 +52,6 @@ production:
   adapter: postgresql
   encoding: unicode
   pool: 5
-  database: gallery-react-front_production
-  username: gallery-react-front
-  password: <%= ENV['gallery-react-front_DATABASE_PASSWORD'] %>
+  database:  gallery-rails-back_production
+  username:  gallery-rails-back
+  password: <%= ENV[' gallery-rails-back_DATABASE_PASSWORD'] %>
